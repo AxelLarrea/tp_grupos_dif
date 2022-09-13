@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+
+/* Header */
+
+.header {
+    margin: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100px;
+    background-color: #25316D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* Layout */
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    width: 100%;
+    height: 1000px;
+}
+
+
+/* Canales */
+
+.channel-container {
+    margin-bottom: 5px;
+    height: 50px;
+    width: 80%;
+    background-color: #5F6F94;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btn-name {
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+}
+
+.channel-name, .activos {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.canales-container {
+    border-radius: 5px;
+    padding: 5px;
+    width: 700px;
+    height: 50%;
+    background-color: #97D2EC;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.canales-container h2 {
+    margin:10px 0 15px 0;
+}
+
+.btn-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+/* Subscribirse */
+
+.canal-form {
+    height: 60px;
+    width: 700px;
+    background-color: #97D2EC;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px 0;
+}
+
+.canal-form input{
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+    outline: none;
+    border: 0;
+    margin-bottom: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.canal-form input[type="text"] {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.canal-form button{
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+    background-color: #5F6F94;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    margin-left: 5px;
+}
+
+.canal-form label {
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+.canal-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Chat */
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 510px;
+    width: 698px;
+    border-radius: 5px;
+}
+
+.message-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #97D2EC;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    padding-top: 2px;
+}
+
+.message-form select {
+    height: 25px;
+    width: 150px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0.5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.message-form textarea {
+    margin-top: 10px;
+    width: 665px;
+    height: 330px;
+    min-width: 665px;
+    outline: none;
+    padding: 3px;
+    resize: none;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+}
+
+.message-form button {
+    height: 25px;
+    width: 150px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    background-color: #5F6F94;
+}
+
+.message-form label {
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
